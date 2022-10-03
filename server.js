@@ -19,18 +19,6 @@ mongoose.connection
   .on("close", () => console.log("You are disconnected from mongoose"))
   .on("error", (error) => console.log(error));
 
-////////////////////////
-//MODELS
-///////////////////////
-
-//userSchema
-
-//cartSchema
-
-//productSchema
-
-//storeSchema
-
 ///////////////////
 //MIDDLEWARE
 //////////////////
